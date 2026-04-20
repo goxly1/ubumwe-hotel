@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename)
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue',
+  base: './',
   plugins: [vue()],
   resolve: {
     alias: {
